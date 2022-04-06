@@ -1,2 +1,2 @@
-# node-course
+# NODE COURSE
 Code examples for beginner node course
