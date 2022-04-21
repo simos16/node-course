@@ -1,0 +1,257 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+a,
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+header {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#img-logo {
+    width: 50%;
+    padding: 0;
+}
+
+a.navbar-brand {
+    width: 10%;
+    padding: 0
+}
+
+#img-cover {
+    margin-top: 3em;
+}
+
+.m-over:hover {
+    background-color: rgb(60, 100, 21);
+}
+
+.bi-house-fill {
+    font-size: 1em;
+    color: #fff;
+    padding-right: 5px;
+}
+
+.bi-envelope,
+.bi-telephone {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.bi-menu-down {
+    color: burlywood;
+    margin-left: 5px;
+}
+
+.bi-person-circle {
+    margin-right: 2em;
+    font-size: 1.4em;
+    color: burlywood;
+}
+
+.section-form {
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-family: "bootstrap-icons";
+    float: left;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    /*content: var(--bs-breadcrumb-divider, ">");*/
+    content: "\F309";
+}
+
+.offcanvas {
+    width: 100%;
+    background-color: #ccc;
+}
+
+#img-cover-contatti {
+    height: 350px;
+    background: url('../images/cover.jpeg');
+}
+
+#text-cover {
+    color: #fff;
+    /* background-color: rgba(0, 0, 0, 0.5);*/
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 6px #000;
+}
+
+.bc-box {
+    margin-left: 40px;
+}
+
+.carousel-caption {
+    font-size: 32px;
+    padding: 10px;
+    color: #6a1a21;
+    background-color: rgba(255, 255, 255, 0.53);
+}
+
+.carousel-caption h3 {
+    color: #2b2f33;
+    text-transform: uppercase;
+}
+
+
+/*ACCORDION*/
+
+.link-accordion {
+    color: #fff;
+}
+
+.link-accordion:hover {
+    color: #ccc;
+}
+
+.btn-odd {
+    background-color: #f0b256;
+}
+
+.btn-even {
+    background-color: #21a733;
+}
+
+#web-design {
+    background: linear-gradient(167deg, rgba(238, 238, 238, 1) 50%, rgba(15, 175, 78, 0.47) 50%);
+    padding: 3.2em;
+}
+
+#programmazione {
+    padding: 3.2em;
+}
+
+
+/*BACK TO TOP*/
+
+#btn-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+
+/******************
+***** FLIP CARD *****
+*******/
+
+.course-grid {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px -6px 10px rgba(0, 0, 0, 0.09), 0px 4px 15px rgba(0, 0, 0, 0.015);
+}
+
+.course-grid:hover {
+    box-shadow: 0px 12px 5px rgba(0, 0, 0, 0.1), 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.image-fluid {
+    width: 100%;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+}
+
+.course-grid h1 {
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.course-grid h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn.buy {
+    color: #4ecadc;
+    border-radius: 0;
+    border: 1px solid #4ecadc;
+    width: 100%;
+    margin-top: 20px;
+    transition: 1s ease;
+}
+
+.btn.buy:hover {
+    background-color: #4ecadc;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.image-container:hover .image-fluid {
+    transform: rotateY(180deg);
+}
+
+
+/******************
+***** PARALLAX *****
+*******/
+
+.parallax-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/bg.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    padding: 100px 0 150px 0;
+}
+
+.content {
+    margin-top: -120px;
+    background-color: #fff;
+    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+}
+
+.content .left {
+    padding-top: 20px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.content .right {
+    padding: 0;
+}
+
+.primary-color {
+    color: rgb(72, 218, 14);
+}
+
+.content .bottom {
+    background-color: #21a733;
+    padding: 20px;
+}
+
+@media(max-width: 576px) {
+    .extra-small {
+        margin-left: 3em;
+    }
+}
+
+@media(min-width: 780px) {
+    .dropdown-menu.show {
+        margin-left: -3.5em;
+    }
+}
