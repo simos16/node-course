@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Autenticazione</title>
+
+</head>
+<body>
+<!-- HEADER-->
+
+<h1>Login</h1>
+{{#if message}}
+<h3>{{ message }}</h3>
+{{/if}}
+    <form action="/login" method="post">
+        <input type="text" name="id"  placeholder="id utente">
+        <input type="password" name="password"  placeholder="password utente">
+        <button type="submit">Login</button>
+    </form>
+
+
+
+
+
+
+</body>
+</html>
