@@ -1,0 +1,20 @@
+
+26052022	17:25:23	d97363dc-f4f9-4ca5-b4de-be6ae16bd60a	POST	undefined	/register
+26052022	17:27:46	5ca1064c-3bb1-421e-8799-b69b665adeb5	GET	undefined	/employees
+26052022	17:29:39	a185d412-9858-4301-b51e-00fbd2d83909	GET	undefined	/users
+26052022	17:30:24	90cf56fa-90d3-4da6-a6fc-6a4bf622edff	GET	undefined	/employees
+26052022	17:33:09	6b9fb1b8-aa74-40b9-8be5-cf1e615cca66	POST	undefined	/auth
+26052022	17:33:47	a53b8b86-8704-4959-aebb-d2cf256c1ed3	GET	undefined	/employees
+26052022	17:34:37	dc2edc6b-c0f7-41a2-b5dc-1da610eb8838	POST	undefined	/employees
+26052022	17:36:13	e2729de8-0637-43a2-87f2-1bf83fecd171	GET	undefined	/logout
+26052022	17:38:16	89ee572a-6e6e-4562-8af4-1a5196104219	POST	undefined	/login
+26052022	17:38:31	eea80ac1-8e9c-47ef-ae6d-400ada16d6e2	POST	undefined	/login
+26052022	17:39:05	2d40e6f7-ec71-496d-b537-9f488ece1506	POST	undefined	/login
+26052022	17:40:55	29aa2617-2de7-4269-bbcd-a490602da971	POST	undefined	/login
+26052022	17:41:18	792c3d39-76f2-4cc0-adea-1f9e777f71fd	POST	undefined	/auth
+26052022	17:41:44	697922d5-54d3-4cbb-938b-7db60dc1b31e	POST	undefined	/auth
+26052022	17:42:30	b31db7db-4276-4b5a-9238-eb12fc68fd49	GET	undefined	/employees
+26052022	17:43:16	04bb8f9e-da9c-4801-ae41-b8281542690e	POST	undefined	/employees
+26052022	17:44:26	d7728577-1387-47aa-9be8-a00b2ccee8d9	PUT	undefined	/employees
+26052022	17:45:37	b6f6f58d-854f-4fa1-a0a0-06e817ef6ba2	PUT	undefined	/employees
+26052022	17:47:31	51aa38e6-de4d-4b7d-93b8-2c41d98f3c3a	PUT	undefined	/employees
