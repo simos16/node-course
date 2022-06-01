@@ -1,0 +1,19 @@
+<nav>
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Modifica</li>
+  </ul>
+</nav>
+
+{{#if alert}}
+  <div class="alert alert-success alert-dismissible fade show">
+    {{alert}}
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+{{/if}}
+
+{{#each rows}}
+<form class="row g-3" method="POST" action="/edituser/{{this.id}}"> 
+  {{> _user-form}}
+</form>
+{{/each}}
